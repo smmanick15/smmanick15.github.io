@@ -13,21 +13,21 @@
   /************************************************/
   
   body {
-    background: #D7F9F4;
+    background: #eee;
   }
   
   /* Header Styles */
   
   h1 {
     text-align: center;
-    color: #0d9c90;
+    color: #333;
     font-size: 35px;
     padding: 30px 15px 15px 15px;
   }
   
   h3 {
     text-align: center;
-    color: #0d9c90;
+    color: #333;
     font-size: 20px;
     padding: 5px;
   }
@@ -43,7 +43,7 @@
   }
   
   .card-container {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 0.5em 0;
     /*border-style: dotted;*/ /* Uncomment this line to see a dotted line around the container */
@@ -53,16 +53,16 @@
     width: 90%;
     margin: 0 auto;
     padding: 0.5em 0;
-    color: #0d9c90;
+    color: #333;
     font-size: 11pt;
     padding: 1em 1em;
     /*border-style: dotted;*/ /* Uncomment this line to see a dotted line around the container */
   }
   
   .memory-card {
-    width: 90%;
+    width: 100%;
     margin: 0.5em auto;
-    background-color: #0d9c90;
+    background-color: #080A0A;
     /*border-style: dotted;*/ /* Uncomment this line to see a dotted line around the container */
   }
   
