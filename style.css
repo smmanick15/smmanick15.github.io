@@ -60,14 +60,14 @@
   }
   
   .memory-card {
-    width: 100%;
+    width:100%;
     margin: 0.5em auto;
     background-color: #080A0A;
     /*border-style: dotted;*/ /* Uncomment this line to see a dotted line around the container */
   }
   
   .memory-image {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     padding: 1.2em 1em;
     /*border-style: dotted;*/ /* Uncomment this line to see a dotted line around the container */
@@ -93,13 +93,13 @@
     color: white;
     text-decoration: none;
     font-family: sans-serif;
-    text-align: center;
+    text-align: left;
     /*border-style: dotted;*/ /* Uncomment this line to see a dotted line around the container */
   }
   
   .description h2 {
     padding-bottom: 0.5em;
-    text-align: center;
+    text-align: left;
     color: white;
     /*border-style: dotted;*/ /* Uncomment this line to see a dotted line around the container */
   }
@@ -111,5 +111,15 @@
   
   /* Add flexbox styles here! */
   
+  .card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   
-  
+  .memory-card{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 48%;
+    margin: 1%;
+  }
