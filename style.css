@@ -16,6 +16,7 @@
     background: #eee;
   }
 
+  
   /* Nav Bar Styles */
   .topnav {
     background-color: #080A0A;
@@ -39,10 +40,11 @@
   }
 
   /* Add a color to the active/current link */
-  .topnav a:active {
+  .topnav a.active {
     background-color: #04AA6D;
     color: white;
   }
+  
   
   /* Header Styles */
   
